@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaCalculator, FaMoneyCheckAlt, FaBookOpen, FaChartBar, FaUser, FaRupeeSign, FaCalendarAlt, FaPercent } from 'react-icons/fa';
 
-const API = 'http://localhost:4000/api/v1';
+const API = '/api/v1';
 const tabList = [
   { key: 'create', label: 'Create Loan', icon: <FaCalculator /> },
   { key: 'payment', label: 'Record Payment', icon: <FaMoneyCheckAlt /> },
